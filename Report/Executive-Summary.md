@@ -12,12 +12,12 @@ This document details my triage and analysis of a security incident that began w
 *   **Attacker Goal:** Initial access, privilege escalation to administrative accounts, and attempted lateral movement toward a domain controller.
 *   **Final Status:** **Contained & Escalated.** The immediate threat was neutralized on January 12. My investigation into previous logs confirmed prior breaches, dating back 4 days before detection. No evidence of successful data exfiltration was found.
 
-## 3. Root Cause Analysis
+## Root Cause Analysis
 Based my investigation, the root cause was identified as **inadequate access controls on external-facing management services**.
 *   **Weak Authentication Policies:** Absence of account lockout mechanisms and the use of weak passwords allowed brute-force attacks to succeed with a 100% success rate in the simulated environment.
 *   **Excessive Network Exposure:** Critical RDP and SSH services were directly exposed to the internet without secondary authentication controls, like Multi-Factor Authentication (MFA).
 
-## 4. Impact Assessment
+## Impact Assessment
 I assessed the impact of this incident as **HIGH** driven primarily by a complete loss of integrity on the affected systems.
 *   **Integrity:** **HIGH.**  Attackers gained root and administrator-level access, resulting in a total loss of trust in the compromised systems. They had the capability to install persistent malware, create backdoors, and tamper with logs.
 *   **Confidentiality:** **LOW.** Administrative credentials were compromised, but the affected systems were lab environments containing no sensitive production data.
@@ -25,7 +25,7 @@ I assessed the impact of this incident as **HIGH** driven primarily by a complet
 *   **Scope:** **LIMITED.** The attack was contained to two specific servers. My investigation found no evidence of successful lateral movement at the time of response.
     *   The compromise of administrative credentials and the resulting full system control represents a severe security event. The limited scope and lab environment reduce the business consequences but do not diminish the critical technical severity of the breach, which would necessitate immediate containment and extensive remediation in a production setting.
 
-## 5. Key Recommendations
+## Key Recommendations
 Based on my findings during the triage process, I recommend the following immediate actions to prevent recurrence:
 1.  **Implement Account Lockout Policy:** Enforce a lockout after 3 failed authentication attempts to mitigate brute-force attacks.
 2.  **Enforce Multi-Factor Authentication (MFA):** Require MFA for all remote access to administrative services.
