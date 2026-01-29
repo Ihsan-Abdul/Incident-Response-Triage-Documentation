@@ -23,7 +23,7 @@ I assessed the impact of this incident as **HIGH** driven primarily by a complet
 *   **Confidentiality:** **LOW.** Administrative credentials were compromised, but the affected systems were lab environments containing no sensitive production data.
 *   **Availability:** **LOW.** The attacker did not execute availability attacks such as ransomware
 *   **Scope:** **LIMITED.** The attack was contained to two specific servers. My investigation found no evidence of successful lateral movement at the time of response.
-*   The compromise of administrative credentials and the resulting full system control represents a severe security event. The limited scope and lab environment reduce the business consequences but do not diminish the critical technical severity of the breach, which would necessitate immediate containment and extensive remediation in a production setting.
+    *   The compromise of administrative credentials and the resulting full system control represents a severe security event. The limited scope and lab environment reduce the business consequences but do not diminish the critical technical severity of the breach, which would necessitate immediate containment and extensive remediation in a production setting.
 
 ## 5. Key Recommendations
 Based on my findings during the triage process, I recommend the following immediate actions to prevent recurrence:
