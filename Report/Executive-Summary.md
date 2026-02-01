@@ -29,7 +29,7 @@ Based on my findings during the triage process, I recommend the following immedi
 1.  **Implement Account Lockout Policy:** Enforce a lockout after 3 failed authentication attempts to mitigate brute-force attacks.
 2.  **Enforce Multi-Factor Authentication:** Require MFA for all remote access to administrative services.
 3.  **Reduce Attack Surface:** Require a VPN for administrative access instead of directly exposing ports to the internet.
-4.  **Enhance Monitoring:** Expand detection rules to alert on anomalous administrative account activity like logins from external IPs and logins at unusual times to catch malicious behavior faster.
+4.  **Enhance Monitoring:** Expand detection rules to alert on anomalous administrative account activity like logins from external IPs and logins at unusual times to catch malicious behaviour faster.
 
 ---
 **Note:** This summary is based on my analysis of simulated log data within a controlled lab environment, conducted for the purpose of developing and demonstrating security operations competencies. 
