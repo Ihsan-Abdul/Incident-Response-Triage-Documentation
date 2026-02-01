@@ -13,7 +13,7 @@ This document details my triage and analysis of a security incident that began w
 *   **Final Status:** **Contained & Escalated.** The immediate threat was neutralized on January 12. My investigation into previous logs confirmed prior breaches, dating back 4 days before detection. No evidence of successful data exfiltration was found.
 
 ## Root Cause Analysis
-Based my investigation, the root cause was identified as **inadequate access controls on external-facing management services**.
+Based on my investigation, the root cause was identified as **inadequate access controls on external-facing management services**.
 *   **No Authentication Policies:** No account lockouts or weak passwords policies allowed brute-force attacks to succeed with a 100% success rate in the simulated environment.
 *   **Network Exposure:** RDP and SSH services were exposed to the internet without other authentication controls like Multi-Factor Authentication.
 
