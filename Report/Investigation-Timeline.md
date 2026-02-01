@@ -56,7 +56,7 @@ I leveraged detection queries from my [Security Monitoring Project](https://gith
 3. **Windows Admin External Login** - Alerted on admin account access from external IPs
 4. **Linux SSH Root Attack** - Detected successful root access after brute force
 
-* Queries available in [Detections catalog](https://github.com/Ihsan-Abdul/Security-Monitoring-Alert-Triage-Splunk-SIEM/tree/main/Detections)*
+* Queries available in [Detections catalog](https://github.com/Ihsan-Abdul/Security-Monitoring-Alert-Triage-Splunk-SIEM/tree/main/Detections)
 
 ## Key Findings
 
