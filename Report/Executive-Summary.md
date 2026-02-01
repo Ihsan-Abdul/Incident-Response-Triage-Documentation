@@ -24,7 +24,7 @@ I assessed the impact of this incident as **HIGH** because of the complete loss 
 *   **Availability:** **LOW.** The attacker did not execute availability attacks such as ransomware.
 *   **Scope:** **LIMITED.** The attack was contained to two specific servers. My investigation found no evidence of successful lateral movement at the time of response.
 
-## Key Recommendations
+## Recommendations
 Based on my findings during the triage process, I recommend the following immediate actions to prevent recurrence:
 1.  **Implement Account Lockout Policy:** Enforce a lockout after 3 failed authentication attempts to mitigate brute-force attacks.
 2.  **Enforce Multi-Factor Authentication:** Require MFA for all remote access to administrative services.
