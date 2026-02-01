@@ -72,4 +72,4 @@ This timeline showcases a consistent five-day attack campaign exploiting weak au
 
 ---
 
-*Note: This timeline is from simulated log data for showcasing security investigation methodologies.*
+*Note: This timeline is from simulated log data for the purpose of showcasing security investigation methodologies.*
