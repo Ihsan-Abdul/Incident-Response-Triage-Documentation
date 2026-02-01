@@ -15,7 +15,7 @@ This timeline reconstructs the five-day attack campaign I discovered through log
 | Jan 9 | 10:00 | SSH brute force | Linux | 203.0.113.45 | Same pattern |
 | Jan 9 | 15:00 | RDP brute force | Windows | 203.0.113.45 | Same pattern |
 | Jan 12 | 15:00 | Final RDP attack | Windows | 198.51.100.77 | Alert triggered |
-| Jan 12 | 15:30 | Investigation begins | All systems | N/A | Correlation |
+| Jan 12 | 15:30 | Investigation begins | All systems |  | Correlation |
 | Jan 12 | 15:45 | Containment completed | Network | All attacker IPs | Blocked |
 
 ## Daily Attack Pattern
