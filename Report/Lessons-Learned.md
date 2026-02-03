@@ -59,14 +59,17 @@ Key findings and improvements identified from investigating the five-day attack 
 
 ### 1. Account Security
 **Problem:** No lockout policies enabled brute force.
+
 **Lesson:** Lock accounts after 3 failed attempts.
 
 ### 2. Access Controls
 **Problem:** Admin services exposed directly to internet.
+
 **Lesson:** Require VPN for RDP/SSH access.
 
 ### 3. Monitoring Gaps
 **Problem:** No alert for external admin logins.
+
 **Lesson:** Critical alert for any admin login from outside.
 
 
