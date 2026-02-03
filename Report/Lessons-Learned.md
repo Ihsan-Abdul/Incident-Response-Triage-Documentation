@@ -76,10 +76,3 @@ This investigation showed that basic detection rules work, but need better timin
 For any other similar attack, detection should happen on Day 1 not Day 5.
 
 ---
-
-**Report Navigation:**
-- [Executive Summary](Executive-Summary.md)
-- [Investigation Timeline](Investigation-Timeline.md)
-- [Response Actions](Response-Actions.md)
-
-*Note: Lessons from simulated attack analysis for security operations training.*
