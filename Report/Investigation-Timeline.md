@@ -71,5 +71,3 @@ I leveraged detection queries from my [Security Monitoring Project](https://gith
 This timeline showcases a consistent five-day attack campaign exploiting weak authentication. My investigation successfully reconstructed the complete attack chain, identified persistence patterns, and triggered appropriate containment actions upon detection.
 
 ---
-
-*Note: This timeline is from simulated log data for the purpose of showcasing security investigation methodologies.*
