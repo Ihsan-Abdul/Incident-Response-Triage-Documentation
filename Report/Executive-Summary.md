@@ -32,4 +32,3 @@ Based on my findings during the triage process, I recommend the following immedi
 4.  **Enhance Monitoring:** Expand detection rules to alert on anomalous administrative account activity like logins from external IPs and logins at unusual times to catch malicious behaviour faster.
 
 ---
-**Note:** This summary is based on my analysis of simulated log data within a controlled lab environment, conducted for the purpose of developing and demonstrating security operations competencies. 
