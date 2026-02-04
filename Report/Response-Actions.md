@@ -67,6 +67,6 @@
 - Two systems fully compromised (admin/root access)
 - Attack worked for 5 days before detection
 - Lateral movement attempted (PsExec to domain controller)
-- Data exfiltration attempted (4.5GB transfers)
+- Data exfiltration attempted (data transfers)
 
 ---
