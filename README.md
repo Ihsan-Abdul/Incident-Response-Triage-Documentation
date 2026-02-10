@@ -23,7 +23,7 @@ Actions documented follow the NIST IR phases (Containment, Eradication, Recovery
 ## Artifacts & Documentation
 - [Forensic Timeline](Report/Investigation-Timeline.md) (Log-based event reconstruction)
 - [Response Action Registry](Report/Response-Actions.md) (Mapped to NIST CSF)
-- [Retrospective & SIEM Tuning Recommendations](Report/Lesson-Learned.md)
+- [Retrospective & SIEM Tuning Recommendations](Report/Lessons-Learned.md)
 
 ## Skills Demonstrated
 - **Log Forensics:** Analysis of Windows Security, Linux auth.log, and firewall logs.
